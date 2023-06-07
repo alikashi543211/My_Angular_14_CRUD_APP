@@ -35,6 +35,11 @@ export class AppComponent implements OnInit {
     }
 
     onSubmit() {
+        if(this.registerForm.invalid)
+        {
+            return;
+        }
+
 
     }
 

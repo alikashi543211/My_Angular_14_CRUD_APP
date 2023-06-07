@@ -34,3 +34,4 @@ npm install font-awesome
 npm install ngx-toastr
 npm install @angular/animations
 npm install angular-in-memory-web-api --save-dev
+ng g s user --skip-tests
